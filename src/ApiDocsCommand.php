@@ -37,8 +37,10 @@ class ApiDocsCommand extends Command
      */
     public function handle()
     {
-        echo "ddd";
-        shell_exec("php artisan docs:markdownToHtml");
+        echo "======= hexo start =======";
+        $str = shell_exec("hexo g && hexo s");
+        var_dump($str);
+        echo "======= hexo end =======";
         return 0;
     }
 }
