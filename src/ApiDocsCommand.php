@@ -4,7 +4,7 @@ namespace AndPHP\ApiDocs;
 
 use Illuminate\Console\Command;
 
-class apiDocsCommand extends Command
+class ApiDocsCommand extends Command
 {
     /**
      * The name and signature of the console command.
