@@ -38,6 +38,8 @@ class ApiDocsCommand extends Command
     public function handle()
     {
         echo "======= hexo start =======";
+        echo __DIR__.PHP_EOL;
+        echo "======= __DIR__ =======";
         $str = shell_exec("cd ".__DIR__."/andphp_hexo_blog && hexo g && hexo s");
         var_dump($str);
         echo "======= hexo end =======";
