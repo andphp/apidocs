@@ -38,6 +38,7 @@ class ApiDocsCommand extends Command
     public function handle()
     {
         echo "ddd";
+        shell_exec("php artisan docs:markdownToHtml");
         return 0;
     }
 }
