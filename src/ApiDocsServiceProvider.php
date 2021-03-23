@@ -4,7 +4,7 @@ namespace AndPHP\ApiDocs;
 
 use Illuminate\Support\ServiceProvider;
 
-class ApiDoesServiceProvider extends ServiceProvider
+class ApiDocsServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
