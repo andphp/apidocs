@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ApiDocs;
+namespace AndPHP\ApiDocs;
 
 use Illuminate\Console\Command;
 
