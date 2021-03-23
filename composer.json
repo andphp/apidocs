@@ -3,8 +3,7 @@
     "description": "dev",
     "type": "library",
     "require": {
-        "laravel/framework": ">=8.12",
-        "nesbot/carbon": "2.x-dev"
+        "laravel/framework": ">=8.12"
     },
     "license": "MIT",
     "authors": [
