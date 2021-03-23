@@ -1,0 +1,29 @@
+{
+    "name": "andphp/docs",
+    "description": "dev",
+    "type": "library",
+    "require": {
+        "laravel/framework": ">=8.12",
+        "nesbot/carbon": "2.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Da Xiong",
+            "email": "10000@andphp.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AndPHP\\ApiDocs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ApiDoesServiceProvider"
+            ]
+        }
+    }
+}
