@@ -40,7 +40,7 @@ class ApiDocsCommand extends Command
         echo "======= hexo start =======";
         echo __DIR__.PHP_EOL;
         echo "======= __DIR__ =======";
-        $str = shell_exec("cd ".__DIR__."/andphp_hexo_blog && hexo g && hexo s");
+        $str = shell_exec("cd D:\phpstudy_pro\WWW\laravel-manage-api\vendor\andphp\docs\src/andphp_hexo_blog && hexo g && hexo s");
         var_dump($str);
         echo "======= hexo end =======";
         return 0;
