@@ -38,7 +38,7 @@ class ApiDocsCommand extends Command
     public function handle()
     {
         echo "======= hexo start =======";
-        $str = shell_exec("hexo g && hexo s");
+        $str = shell_exec("hexo s");
         var_dump($str);
         echo "======= hexo end =======";
         return 0;
