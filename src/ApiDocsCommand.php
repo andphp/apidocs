@@ -11,7 +11,7 @@ class ApiDocsCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'docs:md';
+    protected $signature = 'docs:html';
 
     /**
      * The console command description. 控制台命令描述
