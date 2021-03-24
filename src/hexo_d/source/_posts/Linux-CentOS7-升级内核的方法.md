@@ -1,5 +1,6 @@
 ---
 title: Linux-CentOS7-升级内核的方法
+urlname: api/v1/login
 sticky: 1
 cover: false
 date: 2020-11-13 22:54:13
