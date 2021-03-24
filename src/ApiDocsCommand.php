@@ -40,7 +40,7 @@ class ApiDocsCommand extends Command
         // cp markdown to source
         echo "同步加载 markdown 文件 》》".PHP_EOL;
         $markdown =  app_path().'/ApiDocs/Markdown';
-        $source = __DIR__.'/hexo_d/source';
+        $source = __DIR__.'/hexo_d/source/_posts';
         if( PHP_OS == "WINNT"){
             shell_exec('xcopy "'.$markdown.'" "'.$source.'" /s /y');
         }else{
