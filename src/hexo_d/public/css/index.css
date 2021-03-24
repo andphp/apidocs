@@ -3481,11 +3481,11 @@ blockquote footer cite:before {
   }
 }
 #page-header.post-bg {
-  height: 20rem;
+  height: 10rem;
 }
 @media screen and (max-width: 768px) {
   #page-header.post-bg {
-    height: 18rem;
+    height: 9rem;
   }
 }
 #page-header.post-bg:before {

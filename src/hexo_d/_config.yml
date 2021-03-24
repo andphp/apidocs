@@ -13,13 +13,13 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://www.andphp.com
-root: /
+url: http://ladmin.test
+root: /docs/
 # permalink: :year/:month/:day/:title/
-permalink: docs/:urlname/
-permalink_defaults:
+permalink: :urlname/
+permalink_defaults: :year/:month/:day/:title/
 pretty_urls:
-  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
