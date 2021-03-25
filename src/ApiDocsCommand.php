@@ -3,6 +3,7 @@
 namespace AndPHP\ApiDocs;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\File;
 
 class ApiDocsCommand extends Command
 {
@@ -56,6 +57,7 @@ class ApiDocsCommand extends Command
 
         $docs =  public_path().'/docs';
         $public = __DIR__.'/hexo_d/public';
+        File::isDirectory($docs) or File::makeDirectory($docs, 0777, true, true);
         if( PHP_OS == "WINNT"){
             shell_exec('xcopy "'.$public.'" "'.$docs.'" /s /y');
         }else{
