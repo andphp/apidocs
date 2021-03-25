@@ -1,6 +1,6 @@
 ---
-title: example
-urlname: api/example
+title: 事例
+url_name: api/example
 sticky: 1
 cover: false
 date: 2020-11-13 22:54:13
@@ -20,7 +20,7 @@ top_img:
 http://newiot.test/api/front/v2/login/post
 ```
 
-> Description:获取社区下所有楼栋
+> Description:事例获取社区下所有楼栋
 
 ### Header参数：
 
